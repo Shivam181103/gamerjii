@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter&family=Bungee&family=Cabin&family=Poppins:wght@200&display=swap');
+ 
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.containers{
+  height: 98rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .container{
+   position: relative;
+ }
+.navbar-cont{
+  margin: 0;
+ width: 100%;
+ display: flex;
+ justify-content: end;
+ align-items: flex-end;
+ height: 4rem;
+ background: -webkit-linear-gradient(orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ gap: 2rem;
+ padding-right: 8rem;
+ 
+}
+.firster{
+  background: url('https://images4.alphacoders.com/107/thumb-1920-1075418.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+}
+.navbar-cont>*{
+  font-size: 1.1rem;
+  padding: 0 1rem;
+}
+ 
+.landing{
+  padding: 3rem;
+  width: 35%;
+  padding-bottom: 1rem;
+}
+
+.landing h1,h3{
+  font-style: italic;
+  font-family: 'Bungee', cursive;
+line-height: 1;
+}
+.landing>h1{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.landing>h3{
+  color: white;
+
+}
+
+.landing>a>img{
+  width: 10rem;
+  margin-top: -2.4rem;
+}
+
+.landing>p{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.carausel-cont{
+  margin: 0;
+}
+
+.game-inside{
+  
+  height: 15rem;
+  box-shadow: 0 0 0 0 rgb(129, 129, 74), 0 3px 15px 0 rgb(129, 129, 58);
+  margin: 0 1rem;
+  transform: skew(-10deg );
+}
+.pubg{
+  background: url('https://c4.wallpaperflare.com/wallpaper/320/205/156/playerunknown-s-battlegrounds-pubg-mobile-game-hd-wallpaper-preview.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+}
+.BGMI{
+  background: url('https://wallpaperaccess.com/full/6163557.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+}
+.cod{
+  background: url('https://wallpapercave.com/dwp1x/Pzb3zCA.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+}
+.wcc3{
+  background: url('https://wallpapercave.com/wp/wp8833654.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+}
+.valorant{
+  background: url(' https://wallpaperaccess.com/full/2576093.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-position:  center ;
+}
+.sliders{
+  padding: 1rem;
+}
+
+.carausel-text{
+  padding:3rem ;
+   
+}
+
+.carausel-text>h1{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.3rem;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Bungee', cursive;
+
+}
+
+.carausel-text>p{
+  color: rgb(185, 183, 183);
+
+}
+
+.featured{
+  text-align: center;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.2rem;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Bungee', cursive;
+margin: 0;
+}
+
+.second{
+  background: url('https://images3.alphacoders.com/110/thumbbig-1102038.webp'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+   height:30rem;
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+
+   transform: skewY(-8deg);
+   bottom:  -41rem;
+   display: flex;
+}
+
+.second-col{
+   
+  height: 25rem;
+   transform: skewY(8deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem ;
+  padding-top: 5rem;
+}
+.second-col.first{
+   width: 60%;
+}
+.second-col.seconds{
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 4rem;
+  align-items: center;
+  
+}
+.seconds>a{
+  text-decoration: none;
+  color: white;
+ 
+
+}
+.seconds>a>h1{
+  font-size: 3rem;
+font-weight: 600;
+}
+.second-col>div{
+  display: flex;
+  width: 100%;
+}
+
+.second-col>div>*{
+  padding:0 1rem;
+  color: lightgray;
+}
+.second-col>h1{
+  padding-left: 1rem;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2.2rem;
+  font-style: italic;
+
+
+}
+.date{
+  padding-bottom: 1rem;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.third{
+  position: absolute;
+  width: 100%;
+  height: 25rem;
+  background: url('https://images2.alphacoders.com/114/thumbbig-1149344.webp'), linear-gradient(white, black), linear-gradient(to bottom right, rgb(104, 102, 102), rgb(37, 37, 37));  
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+  bottom: -60rem;
+  z-index: -2;
+  display: flex;
+  
+}
+.third-col{
+   
+  height: 25rem;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem ;
+  padding-top: 5rem;
+}
+.third-col.first{
+   width: 60%;
+}
+.third-col.seconds{
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 4rem;
+  align-items: end;
+  
+   
+}
+
+.third-col.seconds>div{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+}
+
+.third-col.seconds>div>h1{
+  padding-left: 1rem;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22) ,   color-stop(0.9, #ff2), color-stop(1, orange) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2.2rem;
+  font-style: italic;
+
+}
+
+.third-col.seconds>div p{
+   color: lightgray;
+}
+.third-col.first>a{
+  text-decoration: none;
+  color: white;
+ 
+
+}
+.third-col.first>a>h1{
+  font-size: 3rem;
+font-weight: 600;
+}
+
+.Faqs{
+  
+  background: url('https://c4.wallpaperflare.com/wallpaper/390/777/113/call-of-duty-video-games-elithiumdizzybug-wallpaper-preview.jpg'), linear-gradient( black,white), linear-gradient(to bottom right, rgb(104, 102, 102), rgb(37, 37, 37));  
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+  text-align: center;
+  color: white;
+  font-family: 'Bungee', cursive;
+}
+body{
+  background-color: black;
+}
+.dropdown{
+  padding: 2rem 4rem 4rem;
+}
+
+ .acord-text{
+   color: rgb(61, 61, 61);
+   font-weight: 200;
+   
+ }
+
+.dropdown-faqs>div{
+  margin: 1rem;
+}
+ 
+.about{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+padding: 1rem;
+}
+.about>*{
+  margin:0 0.5rem;
+
+}
+
+.links{
+  display: flex;
+  width: 100%;
+ justify-content: center;
+}
+.links>*{
+  text-decoration: none;
+  color: white;
+  margin: 0.4rem;
+
+}
+.footer{
+  background-color: black;
+  color: white;
+  width: 100vw;
+}
+.footer>*{
+  text-align: center;
+}
+.footer>h4{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.footer>imgs{
+  justify-content: center;
+}
+
+@media (max-Width:720px){
+
+  .navbar-cont{
+    margin: 0;
+   padding: 0 1rem;
+   display: flex;
+   }
+   .carausel-text>p{
+    width: 70%;
+    font-size: 18px;
+   }
+   
+   
+  .landing{
+    padding: 3rem;
+    width: 100%;
+    padding-bottom: 1rem;
+   
+  }
+   .logo{
+     margin-top:-5rem;
+     margin-bottom: 7rem;
+     width: 6rem;
+   }
+  
+  .landing h1,h3{
+    font-style: italic;
+    font-family: 'Bungee', cursive;
+    line-height: 1;
+    width: 80%;
+  }
+   
+   .carausel-text{
+     margin-top: 0;
+     padding-top: 0;
+   }
+  
+.second{
+  bottom: -30rem;
+}
+.second-col.first>h1{
+  
+  font-size: 2rem;
+    padding-top: 3rem;
+}
+.date{
+  font-size: 15px;
+}
+.second-col.first>div{
+  margin: 0;
+  padding: 0;
+}
+ .second-col.seconds>a>h1{
+   font-size: 2.2rem;
+   padding-bottom: 1rem;
+ }
+.third{
+  bottom: -62rem;
+  height: 35rem;
+}
+.third-col.first>a>h1{
+  font-size: 2.2rem;
+     
+}
+
+.third-col.seconds {
+   margin-top: 4rem;
+   text-align: end;
+}
+.featured{
+  font-size: 2.5rem;
+}
+.containers{
+  height: 130rem;
+}
+}
