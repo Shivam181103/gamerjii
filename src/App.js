@@ -32,7 +32,7 @@ import './App.css'
       <h1>PLAY ESPORTS TOURNAMENTS</h1>
       <h3>&amp; WIN REWARDS</h3>
       <p>Your first step to become a gamer!</p>
-      <a href="">
+      <a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click">
         {" "}
         <img
           src="https://www.freepnglogos.com/uploads/google-play-png-logo/new-get-it-on-google-play-png-logo-20.png"
@@ -108,12 +108,12 @@ import './App.css'
          <p> Hosted By:</p> 
        </div>
      </div>
-     <div className="second-col seconds"><a href=""> <h1>JOIN NOW</h1> </a></div>
+     <div className="second-col seconds"><a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"> <h1>JOIN NOW</h1> </a></div>
      
    </div>
 
    <div className="third">
-   <div className="third-col first"><a href=""> <h1>JOIN NOW</h1> </a></div>
+   <div className="third-col first"><a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"> <h1>JOIN NOW</h1> </a></div>
    <div className="third-col seconds">
      <div> <h1>WCC3-WEEKLY TOURNAMENT</h1> </div>
      <div className='date'>  <p style={{color:'yellow'}} >Date: 20-03-2022 to 20-03-2022 | ID:0KKDKA</p></div>
