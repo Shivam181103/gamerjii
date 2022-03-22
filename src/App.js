@@ -1,6 +1,61 @@
 import './App.css'
   import Slider from 'react-slick';
+ function Secothird(){
+   if(
+      window.innerWidth<=720){
+        return (<> <div className="third-col seconds">
+        <div> <h1>WCC3-WEEKLY TOURNAMENT</h1> </div>
+        <div className='date'>  <p style={{color:'yellow'}} >Date: 20-03-2022 to 20-03-2022 | ID:0KKDKA</p></div>
+          <div>
+            <p>Map: Chennai</p>
+            <p>Perspective:2 </p>
+            <p>Round :4</p>
+          </div>
+          <div>
+            <p>Winning: 500</p>
+            <p>Winner: 2 </p>
+            <p>Entry Fees : 0</p>
+          </div>
    
+          <div>
+            <p> Hosted By:</p> 
+          </div>
+        </div>
+        <div className="third-col first"><a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"> <h1>JOIN NOW</h1> </a></div>
+   
+        </>) 
+      }
+      else{
+
+        return(
+          <>  <div className="third-col first"><a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"> <h1>JOIN NOW</h1> </a></div>
+          <div className="third-col seconds">
+            <div> <h1>WCC3-WEEKLY TOURNAMENT</h1> </div>
+            <div className='date'>  <p style={{color:'yellow'}} >Date: 20-03-2022 to 20-03-2022 | ID:0KKDKA</p></div>
+              <div>
+                <p>Map: Chennai</p>
+                <p>Perspective:2 </p>
+                <p>Round :4</p>
+              </div>
+              <div>
+                <p>Winning: 500</p>
+                <p>Winner: 2 </p>
+                <p>Entry Fees : 0</p>
+              </div>
+       
+              <div>
+                <p> Hosted By:</p> 
+              </div>
+            </div>
+            
+          </>
+        )
+      }
+  
+ 
+      
+    
+ }  
 
  function App() {  
 
@@ -12,9 +67,32 @@ import './App.css'
     arrows:false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay:true,
-    //   autoplaySpeed:2000,
+    autoplay:true,
+    autoplaySpeed:2000,
     accessibility:true,
+    responsive: [
+      {
+       breakpoint:1024,
+       settings:{
+         
+       }
+      },
+      {
+       breakpoint:600,
+       settings:{
+         slidesToShow:2,
+         slidesToScroll:1,
+         intialSlide:2
+       }
+      },
+     {
+       breakpoint: 480,
+       settings: {
+         slidesToShow:1,
+         slidesToScroll:1
+       }
+     }
+    ]
    
   };
   return (
@@ -22,11 +100,28 @@ import './App.css'
  
  <div className="containers">
   <div className="firster">
-    <nav className="navbar-cont">
-      <p>Home</p>
-      <p>Games</p>
-      <p>Tournaments</p>
-    </nav>
+  <nav class="  navbar navbar-expand-lg navbar-dark  navi">
+  <div class="container-fluid">
+ 
+    <button class="navbar-toggler  burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span   class="navbar-toggler-icon  burger-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
     <div className="landing">
       <img className='logo' src="https://www.gamerji.com/img/logo.png" alt="" />
       <h1>PLAY ESPORTS TOURNAMENTS</h1>
@@ -88,7 +183,10 @@ import './App.css'
     </div>
   <h1 className='featured'>FEATURED TOURNAMENTS</h1>
   </div>
-   <div className="second ">
+  
+</div>
+<div className="seco-third">
+<div className="second ">
      
      <div className="second-col first">
       <h1>WCC3-WEEKLY TOURNAMENT</h1> 
@@ -113,32 +211,14 @@ import './App.css'
    </div>
 
    <div className="third">
-   <div className="third-col first"><a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"> <h1>JOIN NOW</h1> </a></div>
-   <div className="third-col seconds">
-     <div> <h1>WCC3-WEEKLY TOURNAMENT</h1> </div>
-     <div className='date'>  <p style={{color:'yellow'}} >Date: 20-03-2022 to 20-03-2022 | ID:0KKDKA</p></div>
-       <div>
-         <p>Map: Chennai</p>
-         <p>Perspective:2 </p>
-         <p>Round :4</p>
-       </div>
-       <div>
-         <p>Winning: 500</p>
-         <p>Winner: 2 </p>
-         <p>Entry Fees : 0</p>
-       </div>
-
-       <div>
-         <p> Hosted By:</p> 
-       </div>
-     </div>
+     <Secothird/>
    </div>
 </div>
 <div className='Faqs'>
        <h1>Gamerji FAQs</h1>
        <div className='dropdown'>
          <div class="accordion accordion-flush dropdown-faqs" id="accordionFlushExample">
-  <div class="accordion-item  ">
+  <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         Can i actually win money on gamerji app ?
