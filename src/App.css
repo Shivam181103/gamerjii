@@ -7,10 +7,12 @@
 }
 body{
     width: 100vw;
+  
 }
+ 
 .containers{
   height: 98rem;
-}
+ }
 
 .App {
   text-align: center;
@@ -195,7 +197,7 @@ margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:  center ;
-   height:30rem;
+   height:35rem;
    position: absolute;
    z-index: -1;
    width: 100%;
