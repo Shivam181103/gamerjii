@@ -107,15 +107,15 @@ import './App.css'
       <span   class="navbar-toggler-icon  burger-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav navii-item-cont">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link  " aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Faqs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
         
       </ul>
@@ -220,7 +220,7 @@ import './App.css'
          <div class="accordion accordion-flush dropdown-faqs" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         Can i actually win money on gamerji app ?
       </button>
     </h2>
@@ -232,7 +232,7 @@ choose a contest that you want to play, defeat and celebrate big wins.
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
       Is it safe to add money on Gamerji ?
       </button>
     </h2>  
@@ -242,7 +242,7 @@ choose a contest that you want to play, defeat and celebrate big wins.
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
       How Gamerji Score is Calculated ?
       </button>
     </h2>
@@ -255,7 +255,7 @@ Rank 1: 50 Points Rank 2: 40 Points Rank 3: 30 Points Rank 4 to 10: 20 Points Ra
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFour">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
       Can Gamerji be Played Outside India ?
       </button>
     </h2>
@@ -265,7 +265,7 @@ Rank 1: 50 Points Rank 2: 40 Points Rank 3: 30 Points Rank 4 to 10: 20 Points Ra
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFive">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
       Can I add cash on Gamerji using digital wallets like Paytm or Phonepe ?
       </button>
     </h2>
@@ -275,7 +275,7 @@ Rank 1: 50 Points Rank 2: 40 Points Rank 3: 30 Points Rank 4 to 10: 20 Points Ra
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingSix">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
       Which Gamerji app to Download ?
       </button>
     </h2>
@@ -286,7 +286,7 @@ Rank 1: 50 Points Rank 2: 40 Points Rank 3: 30 Points Rank 4 to 10: 20 Points Ra
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingSeven">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
       Which Gamerji app to Download ?
       </button>
     </h2>
@@ -298,7 +298,7 @@ Rank 1: 50 Points Rank 2: 40 Points Rank 3: 30 Points Rank 4 to 10: 20 Points Ra
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingNine">
-      <button class="accordion-button collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+      <button class="accordion-button accord-btn collapsed dropdown-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
       How to Play On Gamerji App ?
       </button>
     </h2>

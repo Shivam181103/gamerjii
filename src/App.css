@@ -7,12 +7,11 @@
 }
 body{
     width: 100vw;
-  
+  height: auto;
+   overflow-x: hidden;
 }
  
-.containers{
-  height: 98rem;
- }
+ 
 
 .App {
   text-align: center;
@@ -52,14 +51,24 @@ body{
     transform: rotate(360deg);
   }
 }
- .container{
-   position: relative;
- }
+  
  .navi{
    background :transparent;
    width: 100vw;
    margin: 0;
    padding: 0;
+  }
+   
+  .navii-item-cont{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+
+  }
+  .navii-item-cont>*{
+    padding: 0.4rem 2rem;
+
   }
 .firster{
   background: url('https://images4.alphacoders.com/107/thumb-1920-1075418.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
@@ -71,9 +80,12 @@ body{
  
  
 .landing{
-  padding: 3rem;
-  width: 35%;
+  padding: 0 4rem;
+  width: 50%;
   padding-bottom: 1rem;
+}
+.containers{
+  height: auto;
 }
 
 .landing h1,h3{
@@ -87,6 +99,9 @@ line-height: 1;
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  font-size: 3.5rem;
+
+   
 }
 .landing>h3{
   color: white;
@@ -94,7 +109,7 @@ line-height: 1;
 }
 
 .landing>a>img{
-  width: 10rem;
+  width: 13rem;
  }
 
 .landing>p{
@@ -105,7 +120,7 @@ line-height: 1;
   background-clip: text;
 }
 .carausel-cont{
-  margin: 0;
+  margin:  1rem 0;
 }
 
 .game-inside{
@@ -114,6 +129,9 @@ line-height: 1;
   box-shadow: 0 0 0 0 rgb(129, 129, 74), 0 3px 15px 0 rgb(129, 129, 58);
   margin: 0 1rem;
   transform: skew(-10deg );
+}
+.game>p{
+  color: yellow;
 }
 .pubg{
   background: url('https://c4.wallpaperflare.com/wallpaper/320/205/156/playerunknown-s-battlegrounds-pubg-mobile-game-hd-wallpaper-preview.jpg'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
@@ -155,8 +173,8 @@ line-height: 1;
 }
 
 .carausel-text{
-  padding:3rem ;
-   
+  padding:3rem  ;
+   padding-left: 4rem;
 }
 
 .carausel-text>h1{
@@ -176,7 +194,10 @@ line-height: 1;
   color: rgb(185, 183, 183);
 
 }
-
+.logo{
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
 .featured{
   text-align: center;
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 141, 34)) ,       color-stop(0.9, #ff2), color-stop(1, orange) );
@@ -190,26 +211,30 @@ line-height: 1;
   font-family: 'Bungee', cursive;
 margin: 0;
 }
-
+.seco-third{
+  position: relative;
+  height: auto;
+}
 .second{
   background: url('https://images3.alphacoders.com/110/thumbbig-1102038.webp'),linear-gradient(rgb(104, 102, 102), rgb(37, 37, 37));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:  center ;
-   height:35rem;
-   position: absolute;
+   /* height:30rem; */
+   position: relative; 
    z-index: -1;
    width: 100%;
-
+   margin-top: -6rem;
+  padding: 2rem 0;
    transform: skewY(-8deg);
-   bottom:  -41rem;
+   /* bottom:  13rem; */
    display: flex;
 }
 
 .second-col{
    
-  height: 25rem;
+  /* height: 25rem; */
    transform: skewY(8deg);
   display: flex;
   flex-direction: column;
@@ -235,7 +260,7 @@ margin: 0;
 
 }
 .seconds>a>h1{
-  font-size: 3rem;
+  font-size: 3.1rem;
 font-weight: 600;
 }
 .second-col>div{
@@ -254,7 +279,7 @@ font-weight: 600;
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-style: italic;
 
 
@@ -266,22 +291,26 @@ font-weight: 600;
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  font-size: 1.1rem;
+  opacity: 0.8;
 }
 
 .third{
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 25rem;
+  /* height: 25rem; */
   background: url('https://images2.alphacoders.com/114/thumbbig-1149344.webp'), linear-gradient(white, black), linear-gradient(to bottom right, rgb(104, 102, 102), rgb(37, 37, 37));  
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:  center ;
-  bottom: -60rem;
+  /* bottom: 1rem; */
   z-index: -2;
   display: flex;
-  
+  padding: 2rem 0;
+  margin-top: -6rem;
 }
+ 
 .third-col{
    
   height: 25rem;
@@ -292,7 +321,9 @@ font-weight: 600;
   padding-top: 5rem;
 }
 .third-col.first{
-   width: 60%;
+   width: 40%;
+   padding-left: 8rem;
+   padding-top: 8rem;
 }
 .third-col.seconds{
   width: 60%;
@@ -318,13 +349,14 @@ font-weight: 600;
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-style: italic;
 
 }
 
 .third-col.seconds>div p{
-   color: lightgray;
+  padding:0 1rem;
+  color: lightgray;
 }
 .third-col.first>a{
   text-decoration: none;
@@ -348,7 +380,9 @@ font-weight: 600;
   color: white;
   font-family: 'Bungee', cursive;
 }
- 
+ .Faqs>h1{
+   font-size: 3rem;
+ }
 .dropdown{
   padding: 2rem 4rem 4rem;
 }
@@ -389,7 +423,14 @@ padding: 1rem;
   background-color: black;
   color: white;
   width: 100vw;
+  background: url('https://c4.wallpaperflare.com/wallpaper/390/777/113/call-of-duty-video-games-elithiumdizzybug-wallpaper-preview.jpg'), linear-gradient( black,white), linear-gradient(to bottom right, rgb(104, 102, 102), rgb(37, 37, 37));  
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center ;
+  padding-bottom: 2rem;
 }
+ 
 .footer>*{
   text-align: center;
 }
@@ -428,10 +469,21 @@ padding: 1rem;
   }
    .logo{
      margin-top:-5rem;
-     margin-bottom: 7rem;
+     margin-bottom:2rem;
      width: 6rem;
    }
-  
+  .landing>h1{
+    font-size: 1.8rem;
+  }
+  .landing>h3{
+    font-size: 1.2rem;
+  }
+  .landing>p{
+    font-size: 1rem;
+  }
+  .landing>a>img{
+    width: 9rem;
+  }
   .landing h1,h3{
     font-style: italic;
     font-family: 'Bungee', cursive;
@@ -440,14 +492,19 @@ padding: 1rem;
   }
    
    .carausel-text{
-     margin-top: 0;
-     padding-top: 0;
+    padding: 1rem; 
+    padding-left: 3rem;
+     margin: 0;
+
+    }
+   .carausel-text>h1{
+     font-size: 2.5rem;
    }
 
   .second{
     transform: skew(0deg);
     position:relative;
-    top: 0;
+    top: 4rem;
     border: none;
     display: grid;
     height: auto;
@@ -461,23 +518,35 @@ padding: 1rem;
     padding-top: 2rem;
     padding: 1rem;
   }
-
+.second-col.first>h1{
+ font-size: 1.8rem;
+}
+.date{
+  font-size: 1rem;
+  opacity: 0.8;
+}
+.second-col.first>div>p{
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+}
   .second-col.seconds{
     width: 100vw;
     height: auto;
     transform: skew(0deg);
-padding: 1rem;
+    padding: 1rem;
   }
-
+div.seco-third{
+  height: 50rem;
+}
   .second-col.seconds>a>h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   
   .third{
     transform: skew(0deg);
     position:relative;
     display: grid;
-    top: 0;
+    top: 8rem;
     border: none;
     height: auto;
   }
@@ -489,7 +558,22 @@ padding: 1rem;
     padding-top: 1rem;
     height: auto;
   }
-
+.third-col.seconds>div>h1{
+  font-size: 1.8rem;
+  
+}
+.third-col.seconds>.date{
+  font-size: 0.8rem;
+  
+}
+.third-col.seconds>.date>p{
+  
+  margin: 0;
+}
+.third-col.seconds>div>p{
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+}
   .third-col.first{
     width: 100vw;
     position: inherit;
@@ -499,44 +583,14 @@ padding: 1rem;
   }
 
   .third-col.first>a>h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
-   
-
-/*   
-.second{
-  bottom: -30rem;
-}
-.second-col.first>h1{
+   .Faqs>h1{
+     font-size: 2rem;
+     padding-top: 1rem;
+   }
   
-  font-size: 2rem;
-    padding-top: 3rem;
-}
-.date{
-  font-size: 15px;
-}
-.second-col.first>div{
-  margin: 0;
-  padding: 0;
-}
- .second-col.seconds>a>h1{
-   font-size: 2.2rem;
-   padding-bottom: 1rem;
- }
-.third{
-  bottom: -62rem;
-  height: 35rem;
-}
-.third-col.first>a>h1{
-  font-size: 2.2rem;
-     
-}
-
-.third-col.seconds {
-   margin-top: 4rem;
-   text-align: end;
-} */
 .featured{
   font-size: 2.5rem;
 }
@@ -547,12 +601,17 @@ padding: 1rem;
 }
 
  .acord-text{
-   color: rgb(61, 61, 61);
+   color: rgb(43, 43, 43);
    font-weight:lighter;
    font-size: 0.8rem;
-   
+   font-family:'Poppins';
+
    
  }
+ .accord-btn{
+  font-size: 0.85rem;
+  font-family:'Poppins';
+}
 
 .dropdown-faqs>div{
   margin: 0.5rem;
