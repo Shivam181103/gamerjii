@@ -130,7 +130,7 @@ import './App.css'
       <a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click">
         {" "}
         <img
-          src="https://www.freepnglogos.com/uploads/google-play-png-logo/new-get-it-on-google-play-png-logo-20.png"
+          src="https://cdnflags.dream11.com/d11-static-pages/images/d11_playstore.webp"
           alt=""
         />
       </a>
