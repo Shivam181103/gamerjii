@@ -1,5 +1,7 @@
 import './App.css'
 import Slider from 'react-slick';
+import {Link,Routes,Route} from 'react-router-dom';
+// import joinnow from ' https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click'
 function Secothird() {
   if (
     window.innerWidth <= 720) {
@@ -127,13 +129,28 @@ function App() {
             <h1>PLAY ESPORTS TOURNAMENTS</h1>
             <h3>&amp; WIN REWARDS</h3>
             <p>Your first step to become a gamer!</p>
-            <a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click">
+            {/* <a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click">
               {" "}
               <img
                 src="https://cdnflags.dream11.com/d11-static-pages/images/d11_playstore.webp"
                 alt=""
               />
-            </a>
+            </a> */}
+             {/* <Routes>
+            
+            <Route path='/joinNow' element={<joinnow/>}/>
+            
+            </Routes> */}
+            <button className='btn btn-lg download-btn'>
+              <img src="https://freeiconshop.com/wp-content/uploads/edd/android-solid.png" alt="" />
+              <div className="btn-text">
+
+                <p>Download our</p>
+                <h3>
+                  Android App
+                </h3>
+              </div>
+            </button>
           </div>
           <div className="row carausel-cont">
             <div className="col carausel-text col-lg-3 col-md-3 col-sm-12">
@@ -206,9 +223,9 @@ function App() {
               <p> Hosted By:</p>
             </div>
           </div>
-          <div className="second-col seconds">
-          
-          <a  href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"> <h1 >JOIN NOW</h1> </a>
+          <div className="second-col seconds">   
+           
+          <a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"><h1>JOIN NOW</h1></a>
           </div>
 
         </div>
