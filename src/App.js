@@ -2,6 +2,8 @@ import './App.css'
 import Slider from 'react-slick';
 import {Link,Routes,Route} from 'react-router-dom';
 // import joinnow from ' https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click'
+
+
 function Secothird() {
   if (
     window.innerWidth <= 720) {
@@ -141,7 +143,8 @@ function App() {
             <Route path='/joinNow' element={<joinnow/>}/>
             
             </Routes> */}
-            <button className='btn btn-lg download-btn'>
+            <button   className='btn btn-lg download-btn'>
+              <a href=" https://app.adjust.net.in/czs3n9n?engagement_type=fallback_click"  >
               <img src="https://freeiconshop.com/wp-content/uploads/edd/android-solid.png" alt="" />
               <div className="btn-text">
 
@@ -150,6 +153,7 @@ function App() {
                   Android App
                 </h3>
               </div>
+                </a>
             </button>
           </div>
           <div className="row carausel-cont">

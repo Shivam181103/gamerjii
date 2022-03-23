@@ -107,28 +107,33 @@ line-height: 1;
   color: white;
 
 }
-.download-btn{
+ 
+.download-btn>a{
   display: flex;
   background-image: linear-gradient(to right, rgb(231, 152, 4) , rgb(245, 245, 29)); 
    border-radius: 10px;
    border: none;
    width: 15rem;
    justify-content: center;
+    height: 3.6rem;
+  text-decoration: none;
+   color: black;
 }
-.download-btn>img{
+.download-btn>a>img{
   width: 3rem;
+  padding: 0.3rem;
 }
-.download-btn>div>p{
+.download-btn>a>div>p{
   font-size: 12px;
   margin: 0.4rem;
   text-align: start;
   font-weight: 700;
 }
-.download-btn>div{
+.download-btn>a>div{
   line-height: 1;
   padding: 0 0.4rem;
 }
-.download-btn>div>h3{
+.download-btn>a>div>h3{
   font-size: 1.2rem;
   font-style: normal;
 }
